@@ -2,7 +2,6 @@
 title: "Radix Article"
 description: |
   A new article created using the Radix format.
-date: "07-02-2018"
 author:
   - name: J.J. Allaire
     url: https://github.com/jjallaire
