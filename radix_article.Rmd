@@ -2,10 +2,13 @@
 title: "Radix Article"
 description: |
   A new article created using the Radix format.
+date: "07-02-2018"
 author:
   - name: J.J. Allaire
     url: https://github.com/jjallaire
-output: radix::radix_article
+output: 
+  radix::radix_article:
+    self_contained: false
 ---
 
 ```{r setup, include=FALSE}
@@ -15,6 +18,17 @@ knitr::opts_chunk$set(echo = FALSE)
 Radix is a publication format for scientific and technical writing, native to the web. 
 
 Learn more about using Radix at <https://radixpub.github.io/radix-r>.
+
+```{r}
+plot(cars)
+```
+
+```{r}
+library(dygraphs)
+dygraph(ldeaths)
+```
+
+
 
 
 
