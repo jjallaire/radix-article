@@ -5,6 +5,7 @@ description: |
 author:
   - name: J.J. Allaire
     url: https://github.com/jjallaire
+date: 11-22-17
 output: 
   radix::radix_article:
     self_contained: false
